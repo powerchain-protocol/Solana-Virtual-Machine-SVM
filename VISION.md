@@ -1,431 +1,578 @@
-# PowerChain SVM™
+# PowerChain Virtual Machine (PVM)
 
-> **The Intelligent Infrastructure Layer for the Global Energy Economy**
+> **PowerChain's high-performance execution environment built on the Solana Virtual Machine (SVM).**
 
 <p align="center">
-  <img src="./assets/logo/powerchain-wordmark.svg" width="220" alt="PowerChain SVM">
+  <img src="./assets/pvm.png" width="180" alt="PowerChain Virtual Machine">
 </p>
 
 <p align="center">
 
-![Version](https://img.shields.io/badge/version-v1.0.0--alpha-0F5A46?style=for-the-badge)
-![Runtime](https://img.shields.io/badge/Runtime-Solana%20Virtual%20Machine-9945FF?style=for-the-badge)
-![Consensus](https://img.shields.io/badge/Consensus-Proof%20of%20Stake-2E8B57?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-v1.0.0--draft-0F5A46?style=for-the-badge)
+![Blockchain](https://img.shields.io/badge/Blockchain-PowerChain-0F5A46?style=for-the-badge)
+![Runtime](https://img.shields.io/badge/Runtime-PVM-14F195?style=for-the-badge)
+![Compatible](https://img.shields.io/badge/SVM-Compatible-9945FF?style=for-the-badge)
+![Language](https://img.shields.io/badge/Language-Rust-orange?style=for-the-badge)
+![Framework](https://img.shields.io/badge/Framework-Anchor-4A4A4A?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=for-the-badge)
 
 </p>
 
 ---
 
+# PowerChain Virtual Machine (PVM)
+
+The **PowerChain Virtual Machine (PVM)** is the native execution environment of the PowerChain blockchain.
+
+Built upon the proven architecture of the **Solana Virtual Machine (SVM)**, PVM extends the standard runtime with purpose-built infrastructure for renewable energy, carbon markets, tokenised real-world assets (RWAs), enterprise finance, and intelligent digital infrastructure.
+
+PVM maintains full compatibility with the Solana developer ecosystem while introducing PowerChain-specific protocols that transform blockchain into programmable infrastructure for the global sustainable economy.
+
+---
+
 # Vision
 
-PowerChain SVM is building the world's leading blockchain infrastructure for renewable energy, digital assets, and real-world asset (RWA) tokenisation.
+PowerChain Virtual Machine enables developers, enterprises, governments, utilities and financial institutions to build scalable blockchain applications that combine high-performance execution with industry-specific infrastructure.
 
-Our vision is to create an open, decentralised financial and digital infrastructure where every renewable energy asset, carbon credit, environmental certificate, battery, electric vehicle, and power transaction can be securely represented, verified, traded, and settled on-chain.
+PVM powers:
 
-Powered by the Solana Virtual Machine (SVM), PowerChain combines high-performance execution with enterprise-grade security to support the next generation of sustainable finance, decentralised energy markets, and intelligent infrastructure.
-
----
-
-# Mission
-
-To accelerate the global energy transition by providing scalable blockchain infrastructure that connects renewable energy producers, utilities, enterprises, governments, investors, and consumers through a trusted digital ecosystem.
-
-PowerChain enables:
-
-- Renewable energy tokenisation
-- Carbon market infrastructure
-- Digital asset issuance
-- Enterprise settlement
-- AI-powered energy intelligence
-- Decentralised finance
-- Global interoperability
+- Renewable Energy Markets
+- Carbon Credit Infrastructure
+- Real-World Asset Tokenisation
+- Enterprise Settlement
+- AI Infrastructure
+- Decentralised Finance
+- Digital Identity
+- IoT Networks
+- Smart Cities
 
 ---
 
-# The Problem
+# Why PVM?
 
-The global energy ecosystem remains fragmented.
+Traditional blockchain virtual machines were designed primarily for cryptocurrency.
 
-Renewable assets, carbon credits, environmental certificates, and energy settlements are often managed through isolated systems with limited transparency, slow settlement, and high operational costs.
+PowerChain Virtual Machine extends the Solana execution model into enterprise infrastructure capable of supporting the digital energy economy.
 
-Current infrastructure suffers from:
-
-- Manual reconciliation
-- Multiple intermediaries
-- Slow settlements
-- Limited interoperability
-- Poor transparency
-- High administrative costs
-- Difficult asset verification
-- Limited global liquidity
-
-As energy markets become increasingly decentralised, traditional infrastructure struggles to meet the demands of digital economies.
-
----
-
-# Our Solution
-
-PowerChain SVM provides a purpose-built blockchain for energy and environmental markets.
-
-Using the Solana Virtual Machine, PowerChain delivers:
+## Core Advantages
 
 - Parallel transaction execution
-- Near real-time settlement
-- Low transaction fees
-- Native tokenisation
-- Enterprise APIs
-- Cross-chain interoperability
-- Smart contract automation
-- AI-driven optimisation
-
-PowerChain serves as the foundational settlement layer for sustainable digital infrastructure.
-
----
-
-# Why Solana Virtual Machine
-
-The Solana Virtual Machine provides the ideal execution environment for energy markets.
-
-## High Throughput
-
-Millions of energy-related transactions can be processed efficiently through parallel execution.
-
-## Low Fees
-
-Microtransactions become economically viable for smart meters, IoT devices, distributed generation, and peer-to-peer energy trading.
-
-## Fast Finality
-
-Near real-time settlement supports dynamic electricity markets and financial applications.
-
-## Security
-
-A deterministic execution model ensures predictable and verifiable outcomes across the network.
-
-## Developer Ecosystem
-
-Compatibility with Rust, Anchor, and Solana tooling enables rapid application development.
+- Low transaction costs
+- Fast finality
+- Massive scalability
+- Enterprise-grade security
+- Solana-compatible smart contracts
+- Native energy protocols
+- Carbon asset infrastructure
+- RWA tokenisation
+- AI-ready architecture
 
 ---
 
-# What PowerChain Enables
+# Built on Solana
 
-## Renewable Energy
+PVM is **not a fork of Solana's programming model**.
 
-- Solar farms
-- Wind farms
-- Battery storage
-- Hydroelectric facilities
-- Hydrogen infrastructure
-- Electric vehicle charging
-- Virtual power plants
+Instead, it builds upon the Solana Virtual Machine while adding PowerChain-specific runtime extensions.
 
----
+PVM inherits:
 
-## Environmental Markets
+- Solana Runtime
+- Parallel Scheduler
+- Account Model
+- Compute Units
+- Rust
+- Anchor
+- Cross Program Invocation (CPI)
+- Solana SDKs
+- Deterministic Execution
 
-- Carbon credits
-- Renewable Energy Certificates (RECs)
-- Guarantees of Origin
-- Biodiversity credits
-- Environmental offsets
-- Sustainability reporting
+Developers familiar with Solana can build on PowerChain using the same tools and programming model.
 
 ---
 
-## Digital Assets
+# Architecture
 
-- Tokenised infrastructure
-- Real-world assets (RWAs)
-- Commodity-backed tokens
-- Treasury assets
-- Stable assets
-- Utility tokens
+PowerChain Virtual Machine follows a deterministic execution pipeline optimised for parallel processing.
 
----
+<p align="center">
+  <img src="./assets/architecture/pvm-architecture.png" width="100%" alt="PowerChain Virtual Machine Architecture">
+</p>
 
-## Financial Infrastructure
+The execution pipeline consists of:
 
-- Payments
-- Settlement
-- Staking
-- Lending
-- Liquidity
-- Treasury management
-- Institutional finance
-
----
-
-# Core Principles
-
-## Sustainability
-
-Every technological decision should contribute toward a cleaner, more efficient global energy economy.
+1. Applications create signed transactions.
+2. RPC Nodes validate requests.
+3. Leader Validators receive transactions.
+4. Runtime Scheduler determines execution order.
+5. Account Loading retrieves account data.
+6. Account Locking prevents write conflicts.
+7. Parallel Execution Engine groups independent transactions.
+8. PowerChain Virtual Machine executes smart contracts.
+9. Programs update blockchain state.
+10. Consensus validates execution.
+11. Finalisation permanently commits blocks.
 
 ---
 
-## Openness
+# PVM Runtime
 
-Open standards encourage innovation and broad ecosystem participation.
+The runtime consists of several integrated components.
 
----
-
-## Transparency
-
-Every transaction is auditable, verifiable, and immutable.
-
----
-
-## Security
-
-Enterprise-grade security protects users, institutions, and critical infrastructure.
-
----
-
-## Interoperability
-
-PowerChain connects seamlessly with existing blockchain ecosystems and enterprise systems.
+| Component | Purpose |
+|------------|----------|
+| Runtime Scheduler | Determines execution order |
+| Account Loader | Loads account state |
+| Account Locking | Prevents conflicting writes |
+| Parallel Execution Engine | Executes independent transactions simultaneously |
+| Program Runtime | Executes Rust smart contracts |
+| Compute Budget | Resource metering |
+| CPI Runtime | Cross-program execution |
+| State Manager | Updates blockchain accounts |
+| Consensus Engine | Verifies execution |
+| Finalisation | Commits blocks |
 
 ---
 
-## Performance
+# Parallel Execution
 
-Infrastructure must scale to support global adoption.
+Parallel execution is the foundation of PVM.
 
----
-
-# Technology Stack
+Traditional blockchains execute:
 
 ```text
-Applications
+TX1
 
-│
+↓
 
-├── Energy Markets
-├── Carbon Markets
-├── Asset Tokenisation
-├── AI Services
-├── DeFi
-├── Enterprise Systems
+TX2
 
-│
+↓
 
-▼
+TX3
 
-PowerChain SDK
+↓
 
-│
-
-▼
-
-RPC Gateway
-
-GraphQL
-
-REST
-
-WebSocket
-
-│
-
-▼
-
-PowerChain Runtime
-
-│
-
-├── Solana Virtual Machine
-├── Parallel Scheduler
-├── Compute Budget
-├── Program Runtime
-├── Account Engine
-
-│
-
-▼
-
-Consensus Layer
-
-│
-
-├── Proof of Stake
-├── Validators
-├── Governance
-
-│
-
-▼
-
-Storage Layer
-
-│
-
-├── Accounts
-├── Digital Assets
-├── Energy Registry
-├── Carbon Registry
-
-│
-
-▼
-
-Infrastructure
-
-├── Validators
-├── RPC Nodes
-├── Archive Nodes
-├── Indexers
-├── Oracle Network
-├── Bridge Relayers
+TX4
 ```
+
+PowerChain Virtual Machine executes:
+
+```text
+TX1 ───┐
+
+TX2 ───┼── Execute Together
+
+TX3 ───┤
+
+TX4 ───┘
+```
+
+Independent transactions execute simultaneously across validator hardware.
+
+Benefits include:
+
+- Higher throughput
+- Lower latency
+- Better CPU utilisation
+- Lower fees
+- Greater scalability
 
 ---
 
-# Native Protocols
+# Account Model
 
-PowerChain introduces specialised protocols designed for the energy economy.
+Like Solana, PowerChain uses an account-based architecture.
+
+Each account stores:
+
+- Public Key
+- Owner Program
+- Balance
+- Account Data
+- Executable Flag
+- Rent Metadata
+
+Programs remain stateless.
+
+All persistent data lives inside accounts.
+
+---
+
+# Compute Units
+
+Instead of gas, PVM measures execution using **Compute Units (CU)**.
+
+| Operation | Typical CU |
+|------------|-----------:|
+| Native Transfer | ~5,000 |
+| Token Transfer | ~8,000 |
+| Token Swap | ~120,000 |
+| NFT Mint | ~150,000 |
+| Energy Settlement | Variable |
+| Carbon Credit Transfer | Variable |
+
+Developers may:
+
+- Request additional compute
+- Optimise execution
+- Set priority fees
+
+---
+
+# Smart Contracts
+
+Smart contracts are called **Programs**.
+
+Programs are:
+
+- Stateless
+- Deterministic
+- Upgradeable (optional governance)
+- Written primarily in Rust
+- Compatible with Anchor
+
+Supported languages
+
+- Rust
+- C
+- C++
+
+---
+
+# Native PowerChain Protocols
+
+PVM extends the Solana runtime with native infrastructure.
 
 ## Energy Protocol
 
-Tracks renewable generation, ownership, production, consumption, and settlement.
+Supports:
+
+- Renewable generation
+- Smart grids
+- Battery systems
+- EV charging
+- Virtual power plants
+- Energy settlement
 
 ---
 
 ## Carbon Protocol
 
-Issues, verifies, transfers, and retires digital carbon credits.
+Supports:
+
+- Carbon credits
+- Credit issuance
+- Transfers
+- Retirement
+- Verification
+- Audit trails
 
 ---
 
-## Asset Protocol
+## RWA Protocol
 
-Supports tokenisation of real-world assets.
+Supports tokenisation of:
+
+- Renewable infrastructure
+- Real estate
+- Commodities
+- Treasury assets
+- Infrastructure funds
+- Financial products
 
 ---
 
 ## Treasury Protocol
 
-Provides decentralised treasury management and ecosystem funding.
+Provides:
 
----
-
-## Governance Protocol
-
-Enables transparent on-chain decision making.
+- DAO treasury
+- Community funding
+- Grants
+- Validator incentives
+- Staking rewards
 
 ---
 
 ## Identity Protocol
 
-Supports enterprise identity, compliance, and permission management.
+Supports:
+
+- Enterprise identity
+- Compliance
+- Access control
+- Institutional permissions
+
+---
+
+# Cross Program Invocation (CPI)
+
+Programs may safely invoke other programs.
+
+Example
+
+```text
+Marketplace
+
+↓
+
+Energy Program
+
+↓
+
+Carbon Program
+
+↓
+
+Token Program
+
+↓
+
+Treasury Program
+
+↓
+
+Return
+```
+
+---
+
+# Transaction Lifecycle
+
+```text
+Wallet
+
+↓
+
+Signed Transaction
+
+↓
+
+RPC Node
+
+↓
+
+Leader Validator
+
+↓
+
+Runtime Scheduler
+
+↓
+
+Account Loading
+
+↓
+
+Account Locking
+
+↓
+
+Parallel Execution
+
+↓
+
+PVM Runtime
+
+↓
+
+Programs
+
+↓
+
+Updated State
+
+↓
+
+Consensus
+
+↓
+
+Finalisation
+```
+
+---
+
+# Runtime Security
+
+PVM provides:
+
+- Deterministic execution
+- Memory safety
+- Stack limits
+- Heap limits
+- Signature verification
+- Account ownership validation
+- Compute limits
+- Read/write permissions
+- Replay protection
+
+Every validator reaches identical execution results.
+
+---
+
+# Developer Platform
+
+Languages
+
+- Rust
+- C
+- C++
+
+Frameworks
+
+- Anchor
+- Native SDK
+
+SDKs
+
+- TypeScript
+- Rust
+- Go
+- Python
+- Kotlin
+- Swift
+
+Tooling
+
+- PowerChain CLI
+- Local Validator
+- Devnet
+- Testnet
+- Explorer
+- Faucet
+- Indexer
+- GraphQL API
+
+---
+
+# Enterprise Features
+
+PVM is designed for institutional adoption.
+
+Features include:
+
+- Multi-signature wallets
+- Enterprise identity
+- Compliance modules
+- Permission management
+- Audit logging
+- Treasury controls
+- Hardware Security Module integration
+- Cross-chain settlement
 
 ---
 
 # Artificial Intelligence
 
-PowerChain integrates AI directly into network infrastructure.
+PowerChain integrates AI directly into blockchain infrastructure.
 
-AI capabilities include:
+Native AI services include:
 
 - Grid optimisation
-- Demand forecasting
-- Renewable production forecasting
+- Renewable forecasting
 - Carbon accounting
-- Market analytics
-- Validator optimisation
 - Fraud detection
 - Predictive maintenance
-- Autonomous energy trading agents
+- Validator optimisation
+- Energy trading agents
+- Market analytics
+
+---
+
+# Performance
+
+Target network characteristics
+
+| Metric | Target |
+|---------|-------:|
+| Block Time | ~400 ms |
+| Finality | ~2–5 s |
+| Parallel Transactions | Thousands |
+| Transaction Fees | Very Low |
+| Smart Contract Language | Rust |
+| Consensus | Proof of Stake |
 
 ---
 
 # Ecosystem
 
-PowerChain serves multiple industries.
+PowerChain enables applications across multiple industries.
 
 - Renewable Energy
 - Utilities
-- Governments
 - Carbon Markets
-- Infrastructure Funds
-- Financial Institutions
-- Developers
-- Enterprises
-- Research Organisations
-- IoT Manufacturers
+- Enterprise Finance
+- Government Infrastructure
+- Tokenised Assets
+- DeFi
+- IoT
+- Smart Cities
+- AI Infrastructure
 
 ---
 
-# Global Interoperability
+# Advantages over Traditional Blockchains
 
-PowerChain connects with multiple blockchain ecosystems.
-
-- Solana
-- Ethereum
-- Bitcoin
-- Sui
-- Cosmos
-- Avalanche
-- Polygon
-- Enterprise networks
-
-Interoperability enables assets and value to move securely between ecosystems while preserving provenance and auditability.
+| Capability | PVM | Traditional VM |
+|------------|-----|----------------|
+| Parallel Execution | ✓ | Limited |
+| Solana Compatible | ✓ | No |
+| Native Energy Protocols | ✓ | No |
+| Carbon Registry | ✓ | No |
+| RWA Infrastructure | ✓ | Limited |
+| Enterprise APIs | ✓ | Limited |
+| AI Integration | ✓ | Limited |
+| Fast Finality | ✓ | Varies |
 
 ---
 
-# Governance
+# Roadmap
 
-PowerChain is governed by its community.
+### Phase 1
 
-PWRC token holders participate in:
+- PVM Runtime
+- Validator Network
+- Testnet
+- Developer SDK
+- Explorer
 
-- Protocol upgrades
-- Treasury allocation
-- Validator governance
-- Grant funding
-- Ecosystem initiatives
+### Phase 2
 
-Governance evolves alongside the network while maintaining decentralisation and transparency.
+- Energy Protocol
+- Carbon Registry
+- Asset Tokenisation
+- Governance
 
----
+### Phase 3
 
-# Long-Term Vision
+- Enterprise APIs
+- AI Infrastructure
+- Cross-chain Bridges
+- Institutional Services
 
-PowerChain aims to become the trusted digital infrastructure layer for the global energy economy.
+### Phase 4
 
-Our long-term objectives include:
-
-- Tokenising renewable infrastructure worldwide
-- Modernising environmental markets
-- Enabling transparent carbon accounting
-- Connecting energy producers and consumers
-- Supporting enterprise digital transformation
-- Powering decentralised finance for sustainable assets
-- Providing AI-driven energy intelligence
-- Building an open developer ecosystem
-- Advancing interoperability across Web3
-
-PowerChain is not simply another blockchain.
-
-It is the foundation for a programmable, sustainable, and intelligent energy economy.
+- Global Energy Marketplace
+- Decentralised Carbon Exchange
+- RWA Marketplace
+- Ecosystem Expansion
 
 ---
 
-# Guiding Statement
+# Why PowerChain Virtual Machine?
 
-> **PowerChain SVM is building the programmable infrastructure that transforms renewable energy, environmental assets, and real-world value into a globally connected digital economy.**
+PowerChain Virtual Machine combines the proven execution model of the Solana Virtual Machine with specialised infrastructure for renewable energy, carbon markets, enterprise finance, and tokenised real-world assets.
+
+Rather than building another general-purpose blockchain, PVM delivers a purpose-built execution environment designed to accelerate the global transition toward sustainable digital infrastructure.
+
+PVM is the programmable foundation of the PowerChain ecosystem.
 
 ---
 
-# Looking Ahead
+# License
 
-The transition to clean energy requires more than new technologies.
+Licensed under the Apache License 2.0.
 
-It requires trusted infrastructure capable of operating across borders, industries, and financial systems.
-
-PowerChain combines high-performance blockchain technology, intelligent automation, and open standards to create that infrastructure.
-
-Our vision is a world where every kilowatt-hour, every carbon credit, every renewable certificate, and every real-world asset can move as efficiently as information on the internet.
-
-**PowerChain SVM powers the digital infrastructure of the sustainable economy.**
+Copyright © 2026 PowerChain.
