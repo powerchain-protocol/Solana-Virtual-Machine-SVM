@@ -2,7 +2,7 @@
 **Draft**
 
 <p align="center">
-  <img src="./assets/svm.png" width="180" alt="Solana Virtual Machine">
+  <img src="./assets/pvm.png" width="180" alt="PowerChain (Solana) Virtual Machine">
 </p>
 
 <p align="center">
