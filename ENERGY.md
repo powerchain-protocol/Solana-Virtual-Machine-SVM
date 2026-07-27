@@ -1,484 +1,487 @@
 # PowerChain Energy Protocol™
 
-> **The programmable infrastructure for renewable energy markets.**
-
-<p align="center">
-  <img src="./assets/protocols/energy.png" width="180" alt="PowerChain Energy Protocol">
-</p>
+> The programmable infrastructure for renewable energy, electricity markets,
+> and digital energy assets.
 
 ---
 
-# Overview
+## Overview
 
-The **PowerChain Energy Protocol** is a native protocol of the PowerChain blockchain that enables renewable energy assets, electricity generation, storage, consumption, and settlement to be represented as verifiable digital assets.
+## Vision
 
-Built on the **PowerChain Virtual Machine (PVM)**, the protocol provides a secure and transparent infrastructure for recording, verifying, tokenising, and exchanging renewable energy across global markets.
+## Why PowerChain Energy?
 
-Unlike traditional energy systems that rely on fragmented databases and intermediaries, the Energy Protocol establishes a shared, tamper-evident ledger where energy data can be verified, audited, and settled in near real time.
+## Design Principles
 
----
+## Architecture
 
-# Vision
+### System Architecture
+- Full architecture diagram
 
-PowerChain aims to create a programmable energy economy where every unit of renewable electricity can be securely measured, verified, tokenised, traded, and settled on-chain.
+### Data Flow
+- Renewable asset → Oracle → PoG → PVM → Settlement
 
-The protocol connects physical energy infrastructure with digital financial infrastructure, enabling trusted markets for renewable electricity, environmental attributes, and energy-backed assets.
-
----
-
-# Objectives
-
-The Energy Protocol is designed to:
-
-- Tokenise renewable electricity production
-- Verify generation events
-- Enable peer-to-peer energy trading
-- Support smart grid infrastructure
-- Connect distributed energy resources
-- Enable virtual power plants
-- Integrate battery storage
-- Support electric vehicle charging
-- Automate settlement
-- Improve transparency and auditability
+### Component Architecture
+- Energy Runtime
+- Oracle Layer
+- PoG Layer
+- PVM Layer
+- Consensus Layer
 
 ---
 
-# Supported Energy Sources
+# Renewable Energy Infrastructure
 
-The protocol is designed to support a wide range of generation technologies, including:
+## Solar
 
-## Renewable Energy
+## Wind
 
-- Solar PV
-- Onshore Wind
-- Offshore Wind
-- Hydroelectric
-- Geothermal
-- Biomass
-- Marine Energy
-- Tidal Energy
-- Wave Energy
+## Hydroelectric
 
----
+## Geothermal
 
-## Low-Carbon Generation
+## Biomass
 
-- Nuclear
-- Waste-to-Energy
-- Hydrogen (where applicable)
+## Marine Energy
 
-Support for individual technologies depends on network governance and applicable regulations.
+## Battery Energy Storage Systems (BESS)
+
+## Hydrogen
 
 ---
 
-# Energy Assets
+# Distributed Energy Resources (DER)
 
-PowerChain can represent multiple categories of energy-related assets.
-
-## Physical Assets
-
-- Solar farms
-- Wind farms
-- Battery energy storage systems
-- Hydroelectric facilities
-- Geothermal plants
+- Residential Solar
+- Commercial Solar
+- Utility Scale
+- Battery Storage
+- EV Chargers
+- Smart Buildings
 - Microgrids
-- Smart meters
-- EV charging stations
-- Transmission infrastructure
-- Distribution infrastructure
+- Virtual Power Plants
 
 ---
 
-## Digital Assets
+# Energy Markets
 
-- Renewable Energy Certificates (RECs)
-- Guarantees of Origin (GOs)
-- Energy production records
-- Energy consumption records
-- Energy-backed tokens
-- Renewable generation credits
-- Capacity certificates
-- Grid flexibility assets
+## Wholesale Markets
 
----
+## Retail Markets
 
-# Participants
+## Peer-to-Peer Energy
 
-The protocol supports multiple stakeholders.
+## Flexibility Markets
 
-## Producers
+## Capacity Markets
 
-- Solar operators
-- Wind operators
-- Utilities
-- Independent Power Producers (IPPs)
-- Community energy projects
+## Ancillary Services
+
+## Demand Response
 
 ---
 
-## Consumers
+# PowerChain Energy Protocol Architecture
 
-- Households
-- Commercial buildings
-- Industrial facilities
-- EV charging operators
-- Data centres
+Large architecture diagram.
 
----
+Applications
 
-## Market Participants
+↓
 
-- Utilities
-- Energy retailers
-- Aggregators
-- Grid operators
-- Energy exchanges
-- Regulators
-- Certificate registries
-- Financial institutions
+Energy APIs
 
----
+↓
 
-# Architecture
+Energy Runtime
 
-<p align="center">
-  <img src="./assets/architecture/energy-protocol.png" width="100%" alt="PowerChain Energy Protocol Architecture">
-</p>
+↓
 
-```
-Renewable Assets
-        │
-        ▼
-Smart Meters
-        │
-        ▼
-IoT Gateway
-        │
-        ▼
 Oracle Network
-        │
-        ▼
-Proof of Generation (PoG)
-        │
-        ▼
-PowerChain Energy Protocol
-        │
-        ▼
+
+↓
+
+Proof of Generation
+
+↓
+
 PowerChain Virtual Machine
-        │
-        ▼
-Blockchain Settlement
-```
 
----
+↓
 
-# Generation Verification
+Validator Network
 
-Generation data can be supplied by trusted sources such as:
+↓
 
-- Smart meters
-- Utility systems
-- SCADA platforms
-- Energy Management Systems (EMS)
-- Distribution System Operators (DSOs)
-- Transmission System Operators (TSOs)
-- Grid operators
-- Renewable monitoring platforms
-- IoT sensors
-
-Data is validated before being recorded on-chain.
+Blockchain
 
 ---
 
 # Proof of Generation (PoG)
 
-The Energy Protocol integrates with **Proof of Generation (PoG)**.
+Complete chapter.
 
-PoG validates renewable generation events using multiple trusted inputs before environmental assets are issued or settled.
+Explain
 
-Validation may include:
-
-- Generation measurements
-- Timestamp verification
-- Geographic location
-- Meter validation
-- Oracle consensus
-- Weather correlation
-- Asset ownership
-- Operational status
-- Network rules
-
-PoG complements Proof of Stake by providing verifiable evidence of renewable energy production.
+- generation verification
+- renewable validation
+- oracle consensus
+- timestamp verification
+- GPS verification
+- AI validation
+- meter validation
+- fraud detection
 
 ---
 
 # Oracle Network
 
-The Oracle Network provides trusted external data required for energy applications.
+Architecture.
 
-Supported data sources include:
+Supported data:
 
-- Electricity prices
-- Renewable generation
-- Weather services
-- Wind forecasts
-- Solar irradiance
-- Grid frequency
-- Battery telemetry
+- Smart meters
+- SCADA
+- EMS
+- Weather
+- Utilities
+- Electricity exchanges
+- Grid operators
+- Satellite imagery
+- IoT
 - Carbon registries
-- Market prices
-- AI forecasts
+- AI prediction
 
 ---
 
-# Smart Contracts
+# Smart Meter Integration
 
-Applications are built as **Programs** executed by the PowerChain Virtual Machine.
+Supported standards
 
-Developers can build energy applications using:
-
-- Rust
-- Anchor
-- Solana SDK
-- TypeScript SDK
-
-Common use cases include:
-
-- Energy trading
-- Automated settlement
-- Renewable certificates
-- Asset management
-- Billing
-- Carbon accounting
+- IEC 61850
+- DLMS/COSEM
+- Modbus
+- MQTT
+- OPC-UA
+- OCPP
+- OpenADR
 
 ---
 
-# Tokenised Energy
+# Grid Integration
 
-The protocol enables programmable energy-backed assets.
+Transmission
 
-Examples include:
+Distribution
 
-- Tokenised electricity
-- Renewable certificates
-- Generation rights
-- Grid flexibility tokens
-- Capacity markets
-- Renewable asset shares
+Utilities
 
-Each asset can be linked to verified production data recorded through the Oracle Network and validated by PoG.
+ISO
 
----
+TSO
 
-# Peer-to-Peer Energy Trading
+DSO
 
-PowerChain enables direct energy exchange between participants.
+EMS
 
-Potential use cases include:
+SCADA
 
-- Residential solar trading
-- Community energy projects
-- Microgrids
-- Industrial energy sharing
-- Virtual power plants
-- Campus energy systems
+Digital Twins
 
 ---
 
-# Battery Energy Storage
+# Battery Infrastructure
 
-The protocol supports battery infrastructure.
+Battery management
 
-Applications include:
+State of charge
 
-- Grid balancing
-- Peak shaving
-- Demand response
-- Frequency regulation
-- Renewable integration
-- Backup power
-- Energy arbitrage
+Virtual batteries
 
----
+Grid balancing
 
-# Electric Vehicles
+Frequency regulation
 
-PowerChain supports electric mobility through programmable settlement.
-
-Potential applications include:
-
-- EV charging payments
-- Fleet management
-- Vehicle-to-grid (V2G)
-- Charging certificates
-- Roaming settlement
-- Smart charging
+Peak shaving
 
 ---
 
-# Virtual Power Plants
+# Electric Mobility
 
-Distributed energy resources can be coordinated as virtual power plants.
+EV charging
 
-Supported resources include:
+Vehicle-to-grid
 
-- Solar PV
-- Wind
-- Batteries
-- EVs
-- Demand response
-- Industrial loads
-- Microgrids
+Fleet charging
 
----
+Smart charging
 
-# Artificial Intelligence
+Roaming
 
-AI services can enhance protocol functionality by supporting:
-
-- Renewable forecasting
-- Demand prediction
-- Grid optimisation
-- Predictive maintenance
-- Market intelligence
-- Asset performance analysis
-- Fraud detection
-- Operational optimisation
+Settlement
 
 ---
 
-# Enterprise Features
+# Renewable Certificates
 
-Designed for institutional deployments.
+Renewable Energy Certificates
 
-Features include:
+Guarantees of Origin
 
-- Multi-signature approvals
-- Enterprise identity
-- Role-based permissions
-- Compliance controls
-- Audit trails
-- Treasury integration
-- API access
+Green Certificates
+
+Carbon Credits
+
+Energy Attribute Certificates
+
+---
+
+# Energy Asset Tokenisation
+
+Power Plants
+
+Solar Farms
+
+Wind Farms
+
+Hydro Assets
+
+Battery Assets
+
+Transmission
+
+Distribution
+
+Energy Storage
+
+Infrastructure Funds
+
+---
+
+# AI Infrastructure
+
+Forecasting
+
+Weather prediction
+
+Energy optimisation
+
+Demand prediction
+
+Predictive maintenance
+
+Fraud detection
+
+Digital twins
+
+Grid optimisation
+
+Autonomous trading
+
+---
+
+# Native Programs
+
+Energy Registry
+
+Certificate Registry
+
+Settlement
+
+Marketplace
+
+Treasury
+
+Oracle
+
+Identity
+
+Governance
+
+Compliance
+
+---
+
+# PowerChain Runtime
+
+Transaction Engine
+
+Parallel Scheduler
+
+Account Manager
+
+Settlement Engine
+
+Compute Manager
+
+Storage
+
+Events
+
+---
+
+# PowerChain Virtual Machine
+
+Parallel execution
+
+Rust
+
+Anchor
+
+CPI
+
+Compute Units
+
+Accounts
+
+Deterministic runtime
+
+---
+
+# Cross-chain
+
+Solana
+
+Sui
+
+Wrapped PWRC
+
+Oracle sync
+
+Asset bridges
+
+Settlement
+
+---
+
+# Enterprise Platform
+
+Utilities
+
+Governments
+
+Industries
+
+Energy traders
+
+Asset managers
+
+Financial institutions
+
+Grid operators
 
 ---
 
 # Security
 
-The protocol benefits from PowerChain's security model.
+Oracle security
 
-Features include:
+PoG security
 
-- Deterministic execution
-- Oracle validation
-- Cryptographic signatures
-- Immutable audit history
-- Runtime verification
-- Account ownership rules
-- Validator consensus
+Runtime security
+
+Identity
+
+Compliance
+
+Validator security
+
+Audit
+
+---
+
+# APIs
+
+REST
+
+GraphQL
+
+RPC
+
+WebSocket
+
+SDKs
 
 ---
 
 # Performance
 
 | Metric | Target |
-|---------|--------:|
+|---------|---------|
 | Runtime | PVM |
-| Verification | Proof of Generation |
-| Settlement | Near real time |
+| Consensus | PoG + PoS |
 | Block Time | ~400 ms |
-| Finality | 2–5 seconds |
-| Smart Contracts | Rust |
-| Oracle Network | Distributed |
-| Settlement Cost | Very Low |
+| Finality | 2–5 s |
+| Settlement | Near real-time |
+| Oracle Latency | Low |
+| Parallel Execution | Thousands of transactions |
 
 ---
 
-# Developer Platform
+# Repository Structure
 
-Developers have access to:
+docs/
 
-- PowerChain SDK
-- Rust SDK
-- TypeScript SDK
-- Anchor Framework
-- CLI
-- Local Validator
-- Testnet
-- Explorer
-- GraphQL API
-- RPC API
+energy/
+
+oracle/
+
+pog/
+
+smart-meter/
+
+marketplace/
+
+sdk/
+
+examples/
 
 ---
 
 # Roadmap
 
-## Phase 1
+Phase 1
 
-- Renewable asset registry
-- Smart contract framework
-- Oracle integration
-- Testnet
+Energy Registry
 
----
+↓
 
-## Phase 2
+Phase 2
 
-- Proof of Generation
-- Renewable certificate issuance
-- Battery integration
-- Smart meter connectivity
+Oracle Network
 
----
+↓
 
-## Phase 3
+Phase 3
 
-- Virtual power plants
-- Peer-to-peer energy marketplace
-- AI forecasting
-- Enterprise APIs
+Proof of Generation
 
----
+↓
 
-## Phase 4
+Phase 4
 
-- Global renewable energy marketplace
-- Institutional settlement
-- Cross-chain interoperability
-- Advanced grid services
+Energy Marketplace
 
----
+↓
 
-# Future Applications
+Phase 5
 
-The Energy Protocol is designed to support a wide range of applications, including:
+Virtual Power Plants
 
-- Renewable energy marketplaces
-- Utility settlement systems
-- Carbon accounting platforms
-- Battery trading platforms
-- Virtual power plants
-- Smart cities
-- Industrial energy management
-- Green finance platforms
-- Infrastructure investment
-- Digital energy exchanges
+↓
+
+Phase 6
+
+Global Renewable Infrastructure
 
 ---
 
 # Vision
 
-The PowerChain Energy Protocol provides the programmable foundation for the next generation of renewable energy infrastructure.
+PowerChain Energy Protocol provides the digital infrastructure for the next generation of renewable energy systems.
 
-By combining verifiable energy data, trusted oracle networks, Proof of Generation, and the high-performance PowerChain Virtual Machine, the protocol enables transparent, secure, and efficient digital markets for renewable electricity and sustainable infrastructure.
+Built on the **PowerChain Virtual Machine (PVM)** and powered by the **Solana Virtual Machine (SVM)**, it connects renewable generation, trusted data, intelligent automation, and blockchain settlement into a single programmable platform.
 
-Its long-term goal is to support an interoperable ecosystem where energy can be measured, verified, tokenised, traded, and settled with confidence across global markets.
+By combining **Proof of Generation (PoG)**, a distributed Oracle Network, high-performance parallel execution, and native energy protocols, PowerChain enables transparent, verifiable, and low-cost markets for renewable electricity, environmental attributes, and tokenised energy infrastructure.
 
----
-
-# License
-
-Licensed under the Apache License 2.0.
-
-Copyright © 2026 PowerChain Foundation. All rights reserved.
+The long-term vision is to establish PowerChain as the foundational blockchain for the global sustainable economy—supporting utilities, governments, enterprises, energy producers, financial institutions, and developers in building secure, interoperable, and intelligent digital energy ecosystems.
